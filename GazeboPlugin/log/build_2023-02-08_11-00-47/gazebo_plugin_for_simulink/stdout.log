@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target msgproto[0m
+[35m[1mConsolidate compiler generated dependencies of target GazeboCoSimCustom[0m
+[35m[1mConsolidate compiler generated dependencies of target GazeboCoSimTransport[0m
+[  1%] [32mBuilding CXX object src/gazeboplugin/CMakeFiles/GazeboCoSimPlugin.dir/GazeboPlugin.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target GazeboCoSimServer[0m
+[  7%] Built target msgproto
+[  8%] [32m[1mLinking CXX shared library ../../../../export/lib/libGazeboCoSimCustom.so[0m
+[ 12%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/ApplyJointTorqueMsgHandler.cpp.o[0m
+[ 12%] [32m[1mLinking CXX shared library ../../../../export/lib/libGazeboCoSimTransport.so[0m
+[ 16%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/GazeboWorldImpl.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomlsupport/GazeboMLUtils.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazeboapply/GazeboApplyCommander.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/ApplyLinkWrenchMsgHandler.cpp.o[0m
+[ 28%] Built target GazeboCoSimCustom
+[ 30%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/GetGazeboModelParamMsgHandler.cpp.o[0m
+[ 39%] Built target GazeboCoSimTransport
+[ 41%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/GetGazeboModelSDFMsgHandler.cpp.o[0m

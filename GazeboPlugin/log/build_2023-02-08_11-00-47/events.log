@@ -1,0 +1,167 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (gazebo_plugin_for_simulink) JobQueued: {'identifier': 'gazebo_plugin_for_simulink', 'dependencies': OrderedDict()}
+[0.000123] (gazebo_plugin_for_simulink) JobStarted: {'identifier': 'gazebo_plugin_for_simulink'}
+[0.007844] (gazebo_plugin_for_simulink) JobProgress: {'identifier': 'gazebo_plugin_for_simulink', 'progress': 'cmake'}
+[0.009184] (gazebo_plugin_for_simulink) JobProgress: {'identifier': 'gazebo_plugin_for_simulink', 'progress': 'build'}
+[0.009236] (gazebo_plugin_for_simulink) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink', '--', '-j8', '-l8'], 'cwd': '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'acer'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/acer'), ('CONDA_SHLVL', '0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1414'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=95c8eadcedbca9c1dcf37ee563e33273'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'acer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'acer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/acer/anaconda3/condabin:/opt/ros/humble/bin:/home/acer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/acer-Nitro-AN515-56:@/tmp/.ICE-unix/1414,unix/acer-Nitro-AN515-56:/tmp/.ICE-unix/1414'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82cac567_fa82_4773_99e8_4d0cde20ac46'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/acer/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/acer/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=95c8eadcedbca9c1dcf37ee563e33273'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.070472] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target msgproto\x1b[0m\n'}
+[0.074898] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target GazeboCoSimCustom\x1b[0m\n'}
+[0.075524] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target GazeboCoSimTransport\x1b[0m\n'}
+[0.075655] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object src/gazeboplugin/CMakeFiles/GazeboCoSimPlugin.dir/GazeboPlugin.cpp.o\x1b[0m\n'}
+[0.077513] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target GazeboCoSimServer\x1b[0m\n'}
+[0.090380] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[  7%] Built target msgproto\n'}
+[0.099352] (-) TimerEvent: {}
+[0.121844] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX shared library ../../../../export/lib/libGazeboCoSimCustom.so\x1b[0m\n'}
+[0.142903] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/ApplyJointTorqueMsgHandler.cpp.o\x1b[0m\n'}
+[0.143144] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library ../../../../export/lib/libGazeboCoSimTransport.so\x1b[0m\n'}
+[0.143214] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/GazeboWorldImpl.cpp.o\x1b[0m\n'}
+[0.143271] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomlsupport/GazeboMLUtils.cpp.o\x1b[0m\n'}
+[0.143386] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazeboapply/GazeboApplyCommander.cpp.o\x1b[0m\n'}
+[0.143554] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/ApplyLinkWrenchMsgHandler.cpp.o\x1b[0m\n'}
+[0.199469] (-) TimerEvent: {}
+[0.299963] (-) TimerEvent: {}
+[0.370724] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 28%] Built target GazeboCoSimCustom\n'}
+[0.379288] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/GetGazeboModelParamMsgHandler.cpp.o\x1b[0m\n'}
+[0.383651] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 39%] Built target GazeboCoSimTransport\n'}
+[0.391987] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/GetGazeboModelSDFMsgHandler.cpp.o\x1b[0m\n'}
+[0.400031] (-) TimerEvent: {}
+[0.500506] (-) TimerEvent: {}
+[0.601053] (-) TimerEvent: {}
+[0.701527] (-) TimerEvent: {}
+[0.802222] (-) TimerEvent: {}
+[0.902887] (-) TimerEvent: {}
+[1.003570] (-) TimerEvent: {}
+[1.104407] (-) TimerEvent: {}
+[1.205120] (-) TimerEvent: {}
+[1.305696] (-) TimerEvent: {}
+[1.406291] (-) TimerEvent: {}
+[1.506870] (-) TimerEvent: {}
+[1.607460] (-) TimerEvent: {}
+[1.707902] (-) TimerEvent: {}
+[1.808380] (-) TimerEvent: {}
+[1.908825] (-) TimerEvent: {}
+[2.009396] (-) TimerEvent: {}
+[2.110097] (-) TimerEvent: {}
+[2.210719] (-) TimerEvent: {}
+[2.311387] (-) TimerEvent: {}
+[2.412146] (-) TimerEvent: {}
+[2.512780] (-) TimerEvent: {}
+[2.613276] (-) TimerEvent: {}
+[2.713772] (-) TimerEvent: {}
+[2.814283] (-) TimerEvent: {}
+[2.914903] (-) TimerEvent: {}
+[3.015632] (-) TimerEvent: {}
+[3.116122] (-) TimerEvent: {}
+[3.216636] (-) TimerEvent: {}
+[3.317136] (-) TimerEvent: {}
+[3.417911] (-) TimerEvent: {}
+[3.518701] (-) TimerEvent: {}
+[3.619341] (-) TimerEvent: {}
+[3.719844] (-) TimerEvent: {}
+[3.820250] (-) TimerEvent: {}
+[3.920640] (-) TimerEvent: {}
+[4.021360] (-) TimerEvent: {}
+[4.122021] (-) TimerEvent: {}
+[4.223034] (-) TimerEvent: {}
+[4.323727] (-) TimerEvent: {}
+[4.424248] (-) TimerEvent: {}
+[4.524970] (-) TimerEvent: {}
+[4.625573] (-) TimerEvent: {}
+[4.726295] (-) TimerEvent: {}
+[4.827031] (-) TimerEvent: {}
+[4.927726] (-) TimerEvent: {}
+[5.028151] (-) TimerEvent: {}
+[5.128597] (-) TimerEvent: {}
+[5.230573] (-) TimerEvent: {}
+[5.331063] (-) TimerEvent: {}
+[5.432946] (-) TimerEvent: {}
+[5.533485] (-) TimerEvent: {}
+[5.634429] (-) TimerEvent: {}
+[5.735366] (-) TimerEvent: {}
+[5.835697] (-) TimerEvent: {}
+[5.936101] (-) TimerEvent: {}
+[6.036571] (-) TimerEvent: {}
+[6.136942] (-) TimerEvent: {}
+[6.237367] (-) TimerEvent: {}
+[6.337805] (-) TimerEvent: {}
+[6.438227] (-) TimerEvent: {}
+[6.538656] (-) TimerEvent: {}
+[6.639217] (-) TimerEvent: {}
+[6.739614] (-) TimerEvent: {}
+[6.839980] (-) TimerEvent: {}
+[6.940254] (-) TimerEvent: {}
+[7.040617] (-) TimerEvent: {}
+[7.141073] (-) TimerEvent: {}
+[7.242050] (-) TimerEvent: {}
+[7.343051] (-) TimerEvent: {}
+[7.444244] (-) TimerEvent: {}
+[7.545580] (-) TimerEvent: {}
+[7.645919] (-) TimerEvent: {}
+[7.746421] (-) TimerEvent: {}
+[7.846853] (-) TimerEvent: {}
+[7.947271] (-) TimerEvent: {}
+[8.047592] (-) TimerEvent: {}
+[8.148204] (-) TimerEvent: {}
+[8.248777] (-) TimerEvent: {}
+[8.349299] (-) TimerEvent: {}
+[8.449827] (-) TimerEvent: {}
+[8.550120] (-) TimerEvent: {}
+[8.650598] (-) TimerEvent: {}
+[8.750998] (-) TimerEvent: {}
+[8.851433] (-) TimerEvent: {}
+[8.951899] (-) TimerEvent: {}
+[9.052323] (-) TimerEvent: {}
+[9.152896] (-) TimerEvent: {}
+[9.253376] (-) TimerEvent: {}
+[9.353802] (-) TimerEvent: {}
+[9.454331] (-) TimerEvent: {}
+[9.554831] (-) TimerEvent: {}
+[9.655270] (-) TimerEvent: {}
+[9.755650] (-) TimerEvent: {}
+[9.856141] (-) TimerEvent: {}
+[9.956458] (-) TimerEvent: {}
+[10.057052] (-) TimerEvent: {}
+[10.157318] (-) TimerEvent: {}
+[10.257682] (-) TimerEvent: {}
+[10.358389] (-) TimerEvent: {}
+[10.459661] (-) TimerEvent: {}
+[10.560276] (-) TimerEvent: {}
+[10.660804] (-) TimerEvent: {}
+[10.761363] (-) TimerEvent: {}
+[10.861888] (-) TimerEvent: {}
+[10.962802] (-) TimerEvent: {}
+[11.063277] (-) TimerEvent: {}
+[11.164345] (-) TimerEvent: {}
+[11.264758] (-) TimerEvent: {}
+[11.365111] (-) TimerEvent: {}
+[11.465668] (-) TimerEvent: {}
+[11.566162] (-) TimerEvent: {}
+[11.666518] (-) TimerEvent: {}
+[11.766943] (-) TimerEvent: {}
+[11.867464] (-) TimerEvent: {}
+[11.967869] (-) TimerEvent: {}
+[12.070769] (-) TimerEvent: {}
+[12.187489] (-) TimerEvent: {}
+[12.287951] (-) TimerEvent: {}
+[12.388294] (-) TimerEvent: {}
+[12.488715] (-) TimerEvent: {}
+[12.589187] (-) TimerEvent: {}
+[12.689805] (-) TimerEvent: {}
+[12.790151] (-) TimerEvent: {}
+[12.890467] (-) TimerEvent: {}
+[12.990786] (-) TimerEvent: {}
+[13.091144] (-) TimerEvent: {}
+[13.191527] (-) TimerEvent: {}
+[13.291998] (-) TimerEvent: {}
+[13.392433] (-) TimerEvent: {}
+[13.492988] (-) TimerEvent: {}
+[13.593459] (-) TimerEvent: {}
+[13.708343] (-) TimerEvent: {}
+[13.809571] (-) TimerEvent: {}
+[13.910141] (-) TimerEvent: {}
+[14.010749] (-) TimerEvent: {}
+[14.111372] (-) TimerEvent: {}
+[14.231100] (-) TimerEvent: {}
+[27.724549] (-) TimerEvent: {}
+[44.073476] (-) TimerEvent: {}
+[55.440948] (-) TimerEvent: {}

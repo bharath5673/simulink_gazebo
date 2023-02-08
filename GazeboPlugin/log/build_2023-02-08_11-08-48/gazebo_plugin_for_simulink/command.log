@@ -1,0 +1,4 @@
+Invoking command in '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink': /usr/bin/cmake --build /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink
+Invoked command in '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink' returned '0': /usr/bin/cmake --build /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink
+Invoking command in '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink': /usr/bin/cmake --install /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink
+Invoked command in '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink' returned '0': /usr/bin/cmake --install /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink

@@ -1,0 +1,18 @@
+[0.009s] Invoking command in '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink': /usr/bin/cmake --build /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink -- -j8 -l8
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target msgproto[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target GazeboCoSimCustom[0m
+[0.075s] [35m[1mConsolidate compiler generated dependencies of target GazeboCoSimTransport[0m
+[0.076s] [  1%] [32mBuilding CXX object src/gazeboplugin/CMakeFiles/GazeboCoSimPlugin.dir/GazeboPlugin.cpp.o[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target GazeboCoSimServer[0m
+[0.090s] [  7%] Built target msgproto
+[0.122s] [  8%] [32m[1mLinking CXX shared library ../../../../export/lib/libGazeboCoSimCustom.so[0m
+[0.143s] [ 12%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/ApplyJointTorqueMsgHandler.cpp.o[0m
+[0.143s] [ 12%] [32m[1mLinking CXX shared library ../../../../export/lib/libGazeboCoSimTransport.so[0m
+[0.143s] [ 16%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/GazeboWorldImpl.cpp.o[0m
+[0.143s] [ 16%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomlsupport/GazeboMLUtils.cpp.o[0m
+[0.143s] [ 17%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazeboapply/GazeboApplyCommander.cpp.o[0m
+[0.143s] [ 19%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/ApplyLinkWrenchMsgHandler.cpp.o[0m
+[0.371s] [ 28%] Built target GazeboCoSimCustom
+[0.379s] [ 30%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/GetGazeboModelParamMsgHandler.cpp.o[0m
+[0.384s] [ 39%] Built target GazeboCoSimTransport
+[0.392s] [ 41%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/GetGazeboModelSDFMsgHandler.cpp.o[0m

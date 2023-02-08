@@ -1,0 +1,143 @@
+[0.009s] Invoking command in '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink': /usr/bin/cmake /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin -DCMAKE_INSTALL_PREFIX=/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/install/gazebo_plugin_for_simulink
+[0.028s] [0mCMake Deprecation Warning at CMakeLists.txt:6 (cmake_minimum_required):
+[0.028s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.028s]   CMake.
+[0.028s] 
+[0.028s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.028s]   CMake that the project does not need compatibility with older versions.
+[0.028s] 
+[0.028s] [0m
+[0.116s] -- The C compiler identification is GNU 11.3.0
+[0.195s] -- The CXX compiler identification is GNU 11.3.0
+[0.203s] -- Detecting C compiler ABI info
+[0.259s] -- Detecting C compiler ABI info - done
+[0.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.266s] -- Detecting C compile features
+[0.267s] -- Detecting C compile features - done
+[0.270s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.333s] -- Detecting CXX compile features
+[0.333s] -- Detecting CXX compile features - done
+[0.335s] -- Performing Test COMPILER_SUPPORTS_CXX17
+[0.401s] -- Performing Test COMPILER_SUPPORTS_CXX17 - Success
+[0.402s] -- Performing Test COMPILER_SUPPORTS_CXX0X
+[0.451s] -- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+[0.451s] -- Using flag -std=c++17.
+[0.461s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.58.0") found components: date_time 
+[0.468s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.468s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.468s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.468s]   problems in calling code that expects `find_package` result variables
+[0.468s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.468s] Call Stack (most recent call first):
+[0.468s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.468s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.468s]   CMakeLists.txt:41 (find_package)
+[0.468s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.468s] [0m
+[0.468s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.471s] -- Checking for module 'bullet>=2.82'
+[0.477s] --   Found bullet, version 3.05
+[0.531s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.559s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.570s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.707s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.725s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.729s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.735s] -- Searching for dependencies of ignition-math6
+[0.738s] -- Looking for OGRE...
+[0.738s] -- OGRE_PREFIX_WATCH changed.
+[0.741s] -- Checking for module 'OGRE'
+[0.747s] --   Found OGRE, version 1.9.0
+[0.761s] -- Found Ogre Ghadamon (1.9.0)
+[0.767s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.773s] -- Looking for OGRE_Paging...
+[0.776s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.776s] -- Looking for OGRE_Terrain...
+[0.778s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.778s] -- Looking for OGRE_Property...
+[0.781s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.781s] -- Looking for OGRE_RTShaderSystem...
+[0.783s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.783s] -- Looking for OGRE_Volume...
+[0.786s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.786s] -- Looking for OGRE_Overlay...
+[0.788s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.842s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.843s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.843s] -- Searching for dependencies of ignition-transport8
+[0.853s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.859s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.861s] -- Checking for module 'libzmq >= 4'
+[0.868s] --   Found libzmq , version 4.3.4
+[0.883s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.886s] -- Checking for module 'uuid'
+[0.891s] --   Found uuid, version 2.37.2
+[0.903s] -- Found UUID: TRUE  
+[0.905s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.905s] -- Searching for dependencies of ignition-msgs5
+[0.916s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.919s] -- Checking for module 'tinyxml2'
+[0.924s] --   Found tinyxml2, version 9.0.0
+[0.937s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.939s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.939s] -- Searching for dependencies of ignition-common3
+[0.940s] -- Looking for dlfcn.h - found
+[0.940s] -- Looking for libdl - found
+[0.941s] -- Found DL: TRUE  
+[0.947s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[0.947s] -- Searching for <ignition-common3> component [graphics]
+[0.949s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.949s] -- Searching for dependencies of ignition-common3-graphics
+[0.949s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.951s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.951s] -- Searching for dependencies of ignition-fuel_tools4
+[0.985s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[0.991s] -- Checking for module 'jsoncpp'
+[0.996s] --   Found jsoncpp, version 1.9.5
+[1.008s] -- Found JSONCPP: TRUE  
+[1.012s] -- Checking for module 'libzip'
+[1.017s] --   Found libzip, version 1.7.3
+[1.031s] -- Found ZIP: TRUE  
+[1.031s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.031s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.031s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.034s] -- Found Gazebo 11.10: major version is 11
+[1.034s] [0m Building ... /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/msgsproto/mw.internal.robotics.gazebotransport.CoSimMsgs.proto[0m
+[1.065s] [0m Building ... /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/msgsproto/mw.internal.robotics.gazebotransport.TestMsgs.proto[0m
+[1.077s] -- Configuring done
+[1.114s] -- Generating done
+[1.115s] -- Build files have been written to: /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink
+[1.122s] Invoked command in '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink' returned '0': /usr/bin/cmake /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin -DCMAKE_INSTALL_PREFIX=/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/install/gazebo_plugin_for_simulink
+[1.123s] Invoking command in '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink': /usr/bin/cmake --build /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink -- -j8 -l8
+[1.155s] [  1%] [32mBuilding CXX object src/gazebocustom/CMakeFiles/GazeboCoSimCustom.dir/gazebocustommsghandler/InitSubscribeCustomMsgHandler.cpp.o[0m
+[1.155s] [  3%] [32mBuilding CXX object src/gazebocustom/CMakeFiles/GazeboCoSimCustom.dir/CustomMsgDispatcher.cpp.o[0m
+[1.155s] [  5%] [32mBuilding CXX object src/gazeboplugin/CMakeFiles/GazeboCoSimPlugin.dir/GazeboPlugin.cpp.o[0m
+[1.155s] [  8%] [32mBuilding CXX object src/gazebocustom/CMakeFiles/GazeboCoSimCustom.dir/gazebocustommsghandler/InitPublishCustomMsgHandler.cpp.o[0m
+[1.155s] [  8%] [32mBuilding CXX object src/transport/CMakeFiles/GazeboCoSimTransport.dir/Connection.cpp.o[0m
+[1.155s] [ 10%] [32mBuilding CXX object src/transport/CMakeFiles/GazeboCoSimTransport.dir/Client.cpp.o[0m
+[1.157s] [ 12%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/GazeboServer.cpp.o[0m
+[1.161s] [ 14%] [32mBuilding CXX object msgsproto/CMakeFiles/msgproto.dir/mw.internal.robotics.gazebotransport.CoSimMsgs.pb.cc.o[0m
+[2.774s] [ 16%] [32mBuilding CXX object src/gazebocustom/CMakeFiles/GazeboCoSimCustom.dir/gazebocustommsghandler/PublishCustomMsgHandler.cpp.o[0m
+[2.914s] [ 17%] [32mBuilding CXX object msgsproto/CMakeFiles/msgproto.dir/mw.internal.robotics.gazebotransport.TestMsgs.pb.cc.o[0m
+[3.564s] [ 19%] [32mBuilding CXX object src/gazebocustom/CMakeFiles/GazeboCoSimCustom.dir/gazebocustommsghandler/SubscribeCustomMsgHandler.cpp.o[0m
+[4.527s] [ 21%] [32mBuilding CXX object src/transport/CMakeFiles/GazeboCoSimTransport.dir/ConnectionManager.cpp.o[0m
+[5.226s] [ 23%] [32m[1mLinking CXX shared library ../../../../export/lib/libGazeboCoSimCustom.so[0m
+[5.848s] [ 23%] Built target GazeboCoSimCustom
+[5.857s] [ 25%] [32mBuilding CXX object src/transport/CMakeFiles/GazeboCoSimTransport.dir/Server.cpp.o[0m
+[6.225s] [ 26%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/GazeboServerCallback.cpp.o[0m
+[7.930s] [ 28%] [32mBuilding CXX object src/transport/CMakeFiles/GazeboCoSimTransport.dir/readWithTimeout.cpp.o[0m
+[9.424s] [ 30%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/GazeboWorldImpl.cpp.o[0m
+[9.954s] [ 32%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/MsgDispatcher.cpp.o[0m
+[10.082s] [ 33%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/RequestCoSimulationHandler.cpp.o[0m
+[10.254s] [ 35%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/StopCoSimulationHandler.cpp.o[0m
+[11.566s] [ 37%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazeboapply/GazeboApplyCommander.cpp.o[0m
+[13.024s] [ 39%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomlsupport/GazeboMLUtils.cpp.o[0m
+[14.003s] [ 41%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/ApplyJointTorqueMsgHandler.cpp.o[0m
+[14.406s] [ 42%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/ApplyLinkWrenchMsgHandler.cpp.o[0m
+[16.274s] [ 44%] [32m[1mLinking CXX shared library ../../../../export/lib/libGazeboCoSimTransport.so[0m
+[16.696s] [ 44%] Built target GazeboCoSimTransport
+[16.720s] [ 46%] [32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/GetGazeboModelParamMsgHandler.cpp.o[0m
+[49.462s] [ 48%] [32m[1mLinking CXX shared library ../../../export/lib/libmsgproto.so[0m
+[49.761s] [ 48%] Built target msgproto

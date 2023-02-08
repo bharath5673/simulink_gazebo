@@ -1,0 +1,8 @@
+[  5%] Built target msgproto
+[ 16%] Built target GazeboCoSimTransport
+[35m[1mConsolidate compiler generated dependencies of target GazeboCoSimServer[0m
+[ 85%] Built target GazeboCoSimServer
+[ 96%] Built target GazeboCoSimCustom
+[35m[1mConsolidate compiler generated dependencies of target GazeboCoSimPlugin[0m
+[100%] Built target GazeboCoSimPlugin
+-- Install configuration: ""

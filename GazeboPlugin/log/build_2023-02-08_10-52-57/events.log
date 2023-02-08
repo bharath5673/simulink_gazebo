@@ -1,0 +1,385 @@
+[0.000000] (-) TimerEvent: {}
+[0.000178] (gazebo_plugin_for_simulink) JobQueued: {'identifier': 'gazebo_plugin_for_simulink', 'dependencies': OrderedDict()}
+[0.000648] (gazebo_plugin_for_simulink) JobStarted: {'identifier': 'gazebo_plugin_for_simulink'}
+[0.009330] (gazebo_plugin_for_simulink) JobProgress: {'identifier': 'gazebo_plugin_for_simulink', 'progress': 'cmake'}
+[0.009394] (gazebo_plugin_for_simulink) Command: {'cmd': ['/usr/bin/cmake', '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin', '-DCMAKE_INSTALL_PREFIX=/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/install/gazebo_plugin_for_simulink'], 'cwd': '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'acer'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/acer'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/acer/Desktop/Projects/matlab/gzmtsim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=de385314d6c07fea778792d163e31f6f'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'acer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'acer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/acer/anaconda3/condabin:/opt/ros/humble/bin:/home/acer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/acer-Nitro-AN515-56:@/tmp/.ICE-unix/1407,unix/acer-Nitro-AN515-56:/tmp/.ICE-unix/1407'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a36656f3_518e_4f1e_859d_c0e8d928a3a9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/acer/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/acer/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=de385314d6c07fea778792d163e31f6f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.028672] (gazebo_plugin_for_simulink) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:6 (cmake_minimum_required):\n'}
+[0.028791] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.028831] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  CMake.\n'}
+[0.028866] (gazebo_plugin_for_simulink) StderrLine: {'line': b'\n'}
+[0.028899] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.028932] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.028966] (gazebo_plugin_for_simulink) StderrLine: {'line': b'\n'}
+[0.029001] (gazebo_plugin_for_simulink) StderrLine: {'line': b'\x1b[0m\n'}
+[0.099900] (-) TimerEvent: {}
+[0.116322] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.3.0\n'}
+[0.195963] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.3.0\n'}
+[0.200064] (-) TimerEvent: {}
+[0.203472] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.259859] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.266097] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.266926] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.267433] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.270615] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300298] (-) TimerEvent: {}
+[0.326532] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.333119] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.333386] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.333585] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.335296] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX17\n'}
+[0.400423] (-) TimerEvent: {}
+[0.402101] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX17 - Success\n'}
+[0.402703] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX0X\n'}
+[0.451573] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Performing Test COMPILER_SUPPORTS_CXX0X - Success\n'}
+[0.451721] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Using flag -std=c++17.\n'}
+[0.461909] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.58.0") found components: date_time \n'}
+[0.468462] (gazebo_plugin_for_simulink) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.468544] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.468585] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.468620] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.468655] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.468690] (gazebo_plugin_for_simulink) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.468724] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.468759] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.468792] (gazebo_plugin_for_simulink) StderrLine: {'line': b'  CMakeLists.txt:41 (find_package)\n'}
+[0.468826] (gazebo_plugin_for_simulink) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.468860] (gazebo_plugin_for_simulink) StderrLine: {'line': b'\x1b[0m\n'}
+[0.468893] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.471952] (gazebo_plugin_for_simulink) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.477790] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.500485] (-) TimerEvent: {}
+[0.532039] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.559844] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.570783] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.600622] (-) TimerEvent: {}
+[0.700885] (-) TimerEvent: {}
+[0.707883] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.725621] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.729282] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.735810] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.738264] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.738751] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.741810] (gazebo_plugin_for_simulink) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.747590] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.762082] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.767592] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.773887] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.776452] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.776522] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.778893] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.778967] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.781473] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.781537] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.783816] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.783884] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.786173] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.786237] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.788475] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.800967] (-) TimerEvent: {}
+[0.842261] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.843869] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.844047] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.853984] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.859709] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.862131] (gazebo_plugin_for_simulink) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.868963] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.883359] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[0.886431] (gazebo_plugin_for_simulink) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.891403] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.901117] (-) TimerEvent: {}
+[0.903533] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[0.905403] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.905627] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.916236] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.919166] (gazebo_plugin_for_simulink) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.924238] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.938100] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.939738] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.939979] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.940235] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.940869] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.941688] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[0.947773] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[0.948101] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.949556] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.949740] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.949976] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.951937] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.952037] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.985876] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[0.991320] (gazebo_plugin_for_simulink) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[0.996402] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.001203] (-) TimerEvent: {}
+[1.008867] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.012539] (gazebo_plugin_for_simulink) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.018039] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.031138] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.031307] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.031476] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[1.031752] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.034272] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Found Gazebo 11.10: major version is 11\n'}
+[1.035121] (gazebo_plugin_for_simulink) StderrLine: {'line': b'\x1b[0m Building ... /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/msgsproto/mw.internal.robotics.gazebotransport.CoSimMsgs.proto\x1b[0m\n'}
+[1.065878] (gazebo_plugin_for_simulink) StderrLine: {'line': b'\x1b[0m Building ... /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/msgsproto/mw.internal.robotics.gazebotransport.TestMsgs.proto\x1b[0m\n'}
+[1.077622] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.101302] (-) TimerEvent: {}
+[1.114884] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Generating done\n'}
+[1.115879] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'-- Build files have been written to: /home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink\n'}
+[1.122710] (gazebo_plugin_for_simulink) CommandEnded: {'returncode': 0}
+[1.123188] (gazebo_plugin_for_simulink) JobProgress: {'identifier': 'gazebo_plugin_for_simulink', 'progress': 'build'}
+[1.123260] (gazebo_plugin_for_simulink) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink', '--', '-j8', '-l8'], 'cwd': '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'acer'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/acer'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/acer/Desktop/Projects/matlab/gzmtsim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1407'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=de385314d6c07fea778792d163e31f6f'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'acer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'acer'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/acer/anaconda3/condabin:/opt/ros/humble/bin:/home/acer/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/acer-Nitro-AN515-56:@/tmp/.ICE-unix/1407,unix/acer-Nitro-AN515-56:/tmp/.ICE-unix/1407'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a36656f3_518e_4f1e_859d_c0e8d928a3a9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/acer/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/acer/Desktop/Projects/matlab/gzmtsim/GazeboPlugin/build/gazebo_plugin_for_simulink'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/acer/anaconda3/bin/conda'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=de385314d6c07fea778792d163e31f6f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.154998] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object src/gazebocustom/CMakeFiles/GazeboCoSimCustom.dir/gazebocustommsghandler/InitSubscribeCustomMsgHandler.cpp.o\x1b[0m\n'}
+[1.155715] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object src/gazebocustom/CMakeFiles/GazeboCoSimCustom.dir/CustomMsgDispatcher.cpp.o\x1b[0m\n'}
+[1.155797] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object src/gazeboplugin/CMakeFiles/GazeboCoSimPlugin.dir/GazeboPlugin.cpp.o\x1b[0m\n'}
+[1.155852] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object src/gazebocustom/CMakeFiles/GazeboCoSimCustom.dir/gazebocustommsghandler/InitPublishCustomMsgHandler.cpp.o\x1b[0m\n'}
+[1.155908] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object src/transport/CMakeFiles/GazeboCoSimTransport.dir/Connection.cpp.o\x1b[0m\n'}
+[1.155959] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object src/transport/CMakeFiles/GazeboCoSimTransport.dir/Client.cpp.o\x1b[0m\n'}
+[1.157588] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/GazeboServer.cpp.o\x1b[0m\n'}
+[1.161403] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object msgsproto/CMakeFiles/msgproto.dir/mw.internal.robotics.gazebotransport.CoSimMsgs.pb.cc.o\x1b[0m\n'}
+[1.201430] (-) TimerEvent: {}
+[1.301775] (-) TimerEvent: {}
+[1.402121] (-) TimerEvent: {}
+[1.502472] (-) TimerEvent: {}
+[1.602839] (-) TimerEvent: {}
+[1.703278] (-) TimerEvent: {}
+[1.803731] (-) TimerEvent: {}
+[1.904185] (-) TimerEvent: {}
+[2.004697] (-) TimerEvent: {}
+[2.105116] (-) TimerEvent: {}
+[2.205569] (-) TimerEvent: {}
+[2.305937] (-) TimerEvent: {}
+[2.406324] (-) TimerEvent: {}
+[2.506863] (-) TimerEvent: {}
+[2.607346] (-) TimerEvent: {}
+[2.707783] (-) TimerEvent: {}
+[2.774936] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object src/gazebocustom/CMakeFiles/GazeboCoSimCustom.dir/gazebocustommsghandler/PublishCustomMsgHandler.cpp.o\x1b[0m\n'}
+[2.807940] (-) TimerEvent: {}
+[2.908416] (-) TimerEvent: {}
+[2.914221] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object msgsproto/CMakeFiles/msgproto.dir/mw.internal.robotics.gazebotransport.TestMsgs.pb.cc.o\x1b[0m\n'}
+[3.008553] (-) TimerEvent: {}
+[3.111602] (-) TimerEvent: {}
+[3.211983] (-) TimerEvent: {}
+[3.312498] (-) TimerEvent: {}
+[3.412896] (-) TimerEvent: {}
+[3.513235] (-) TimerEvent: {}
+[3.564664] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object src/gazebocustom/CMakeFiles/GazeboCoSimCustom.dir/gazebocustommsghandler/SubscribeCustomMsgHandler.cpp.o\x1b[0m\n'}
+[3.613372] (-) TimerEvent: {}
+[3.713829] (-) TimerEvent: {}
+[3.814434] (-) TimerEvent: {}
+[3.914922] (-) TimerEvent: {}
+[4.018396] (-) TimerEvent: {}
+[4.118933] (-) TimerEvent: {}
+[4.219419] (-) TimerEvent: {}
+[4.319832] (-) TimerEvent: {}
+[4.436337] (-) TimerEvent: {}
+[4.527421] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object src/transport/CMakeFiles/GazeboCoSimTransport.dir/ConnectionManager.cpp.o\x1b[0m\n'}
+[4.536472] (-) TimerEvent: {}
+[4.636978] (-) TimerEvent: {}
+[4.737526] (-) TimerEvent: {}
+[4.840056] (-) TimerEvent: {}
+[4.940570] (-) TimerEvent: {}
+[5.040997] (-) TimerEvent: {}
+[5.141481] (-) TimerEvent: {}
+[5.226344] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library ../../../../export/lib/libGazeboCoSimCustom.so\x1b[0m\n'}
+[5.241626] (-) TimerEvent: {}
+[5.342140] (-) TimerEvent: {}
+[5.443622] (-) TimerEvent: {}
+[5.544137] (-) TimerEvent: {}
+[5.644577] (-) TimerEvent: {}
+[5.744990] (-) TimerEvent: {}
+[5.845411] (-) TimerEvent: {}
+[5.848763] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 23%] Built target GazeboCoSimCustom\n'}
+[5.857700] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/transport/CMakeFiles/GazeboCoSimTransport.dir/Server.cpp.o\x1b[0m\n'}
+[5.945538] (-) TimerEvent: {}
+[6.051986] (-) TimerEvent: {}
+[6.152505] (-) TimerEvent: {}
+[6.225987] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/GazeboServerCallback.cpp.o\x1b[0m\n'}
+[6.252640] (-) TimerEvent: {}
+[6.353060] (-) TimerEvent: {}
+[6.453717] (-) TimerEvent: {}
+[6.554327] (-) TimerEvent: {}
+[6.654860] (-) TimerEvent: {}
+[6.755626] (-) TimerEvent: {}
+[6.856156] (-) TimerEvent: {}
+[6.957316] (-) TimerEvent: {}
+[7.057902] (-) TimerEvent: {}
+[7.158465] (-) TimerEvent: {}
+[7.258876] (-) TimerEvent: {}
+[7.359384] (-) TimerEvent: {}
+[7.459789] (-) TimerEvent: {}
+[7.560227] (-) TimerEvent: {}
+[7.660624] (-) TimerEvent: {}
+[7.761797] (-) TimerEvent: {}
+[7.862476] (-) TimerEvent: {}
+[7.930557] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object src/transport/CMakeFiles/GazeboCoSimTransport.dir/readWithTimeout.cpp.o\x1b[0m\n'}
+[7.962836] (-) TimerEvent: {}
+[8.063321] (-) TimerEvent: {}
+[8.163852] (-) TimerEvent: {}
+[8.264261] (-) TimerEvent: {}
+[8.364669] (-) TimerEvent: {}
+[8.465137] (-) TimerEvent: {}
+[8.565531] (-) TimerEvent: {}
+[8.665954] (-) TimerEvent: {}
+[8.766422] (-) TimerEvent: {}
+[8.869549] (-) TimerEvent: {}
+[8.970064] (-) TimerEvent: {}
+[9.072978] (-) TimerEvent: {}
+[9.173485] (-) TimerEvent: {}
+[9.274038] (-) TimerEvent: {}
+[9.374534] (-) TimerEvent: {}
+[9.424342] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/GazeboWorldImpl.cpp.o\x1b[0m\n'}
+[9.474683] (-) TimerEvent: {}
+[9.575127] (-) TimerEvent: {}
+[9.675531] (-) TimerEvent: {}
+[9.775991] (-) TimerEvent: {}
+[9.876486] (-) TimerEvent: {}
+[9.954455] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/MsgDispatcher.cpp.o\x1b[0m\n'}
+[9.976752] (-) TimerEvent: {}
+[10.077668] (-) TimerEvent: {}
+[10.082536] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/RequestCoSimulationHandler.cpp.o\x1b[0m\n'}
+[10.177780] (-) TimerEvent: {}
+[10.254931] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/StopCoSimulationHandler.cpp.o\x1b[0m\n'}
+[10.277910] (-) TimerEvent: {}
+[10.378436] (-) TimerEvent: {}
+[10.481095] (-) TimerEvent: {}
+[10.581667] (-) TimerEvent: {}
+[10.682325] (-) TimerEvent: {}
+[10.782822] (-) TimerEvent: {}
+[10.883356] (-) TimerEvent: {}
+[10.983885] (-) TimerEvent: {}
+[11.084495] (-) TimerEvent: {}
+[11.185036] (-) TimerEvent: {}
+[11.285531] (-) TimerEvent: {}
+[11.386101] (-) TimerEvent: {}
+[11.486894] (-) TimerEvent: {}
+[11.566679] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazeboapply/GazeboApplyCommander.cpp.o\x1b[0m\n'}
+[11.587003] (-) TimerEvent: {}
+[11.687468] (-) TimerEvent: {}
+[11.788045] (-) TimerEvent: {}
+[11.888488] (-) TimerEvent: {}
+[11.989222] (-) TimerEvent: {}
+[12.089686] (-) TimerEvent: {}
+[12.190147] (-) TimerEvent: {}
+[12.290626] (-) TimerEvent: {}
+[12.391115] (-) TimerEvent: {}
+[12.491551] (-) TimerEvent: {}
+[12.591949] (-) TimerEvent: {}
+[12.692393] (-) TimerEvent: {}
+[12.792784] (-) TimerEvent: {}
+[12.893248] (-) TimerEvent: {}
+[12.993690] (-) TimerEvent: {}
+[13.024465] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomlsupport/GazeboMLUtils.cpp.o\x1b[0m\n'}
+[13.093818] (-) TimerEvent: {}
+[13.194304] (-) TimerEvent: {}
+[13.294789] (-) TimerEvent: {}
+[13.395306] (-) TimerEvent: {}
+[13.495875] (-) TimerEvent: {}
+[13.596384] (-) TimerEvent: {}
+[13.696875] (-) TimerEvent: {}
+[13.797360] (-) TimerEvent: {}
+[13.897818] (-) TimerEvent: {}
+[13.998329] (-) TimerEvent: {}
+[14.003634] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/ApplyJointTorqueMsgHandler.cpp.o\x1b[0m\n'}
+[14.098528] (-) TimerEvent: {}
+[14.198985] (-) TimerEvent: {}
+[14.299395] (-) TimerEvent: {}
+[14.399821] (-) TimerEvent: {}
+[14.406447] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/ApplyLinkWrenchMsgHandler.cpp.o\x1b[0m\n'}
+[14.499947] (-) TimerEvent: {}
+[14.600444] (-) TimerEvent: {}
+[14.700892] (-) TimerEvent: {}
+[14.801320] (-) TimerEvent: {}
+[14.901814] (-) TimerEvent: {}
+[15.002280] (-) TimerEvent: {}
+[15.102806] (-) TimerEvent: {}
+[15.203334] (-) TimerEvent: {}
+[15.303791] (-) TimerEvent: {}
+[15.404258] (-) TimerEvent: {}
+[15.505783] (-) TimerEvent: {}
+[15.606321] (-) TimerEvent: {}
+[15.706857] (-) TimerEvent: {}
+[15.807301] (-) TimerEvent: {}
+[15.907758] (-) TimerEvent: {}
+[16.008152] (-) TimerEvent: {}
+[16.108770] (-) TimerEvent: {}
+[16.209486] (-) TimerEvent: {}
+[16.274615] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library ../../../../export/lib/libGazeboCoSimTransport.so\x1b[0m\n'}
+[16.309633] (-) TimerEvent: {}
+[16.410117] (-) TimerEvent: {}
+[16.510638] (-) TimerEvent: {}
+[16.611135] (-) TimerEvent: {}
+[16.696415] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 44%] Built target GazeboCoSimTransport\n'}
+[16.711404] (-) TimerEvent: {}
+[16.720049] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object src/gazeboserver/CMakeFiles/GazeboCoSimServer.dir/gazebomsghandler/GetGazeboModelParamMsgHandler.cpp.o\x1b[0m\n'}
+[16.811550] (-) TimerEvent: {}
+[16.912206] (-) TimerEvent: {}
+[17.012728] (-) TimerEvent: {}
+[17.113278] (-) TimerEvent: {}
+[17.213884] (-) TimerEvent: {}
+[17.314433] (-) TimerEvent: {}
+[17.415019] (-) TimerEvent: {}
+[17.515454] (-) TimerEvent: {}
+[17.616028] (-) TimerEvent: {}
+[17.716672] (-) TimerEvent: {}
+[17.817274] (-) TimerEvent: {}
+[17.918319] (-) TimerEvent: {}
+[18.019302] (-) TimerEvent: {}
+[18.119897] (-) TimerEvent: {}
+[18.220341] (-) TimerEvent: {}
+[18.320802] (-) TimerEvent: {}
+[18.421304] (-) TimerEvent: {}
+[18.521724] (-) TimerEvent: {}
+[18.622037] (-) TimerEvent: {}
+[18.722472] (-) TimerEvent: {}
+[18.822873] (-) TimerEvent: {}
+[18.923912] (-) TimerEvent: {}
+[19.024228] (-) TimerEvent: {}
+[19.124517] (-) TimerEvent: {}
+[19.224841] (-) TimerEvent: {}
+[19.325283] (-) TimerEvent: {}
+[19.425662] (-) TimerEvent: {}
+[19.526247] (-) TimerEvent: {}
+[19.626611] (-) TimerEvent: {}
+[19.734224] (-) TimerEvent: {}
+[19.857388] (-) TimerEvent: {}
+[20.595209] (-) TimerEvent: {}
+[33.273835] (-) TimerEvent: {}
+[41.027646] (-) TimerEvent: {}
+[48.908847] (-) TimerEvent: {}
+[49.016160] (-) TimerEvent: {}
+[49.116561] (-) TimerEvent: {}
+[49.217030] (-) TimerEvent: {}
+[49.317834] (-) TimerEvent: {}
+[49.418320] (-) TimerEvent: {}
+[49.461620] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library ../../../export/lib/libmsgproto.so\x1b[0m\n'}
+[49.518581] (-) TimerEvent: {}
+[49.620423] (-) TimerEvent: {}
+[49.720892] (-) TimerEvent: {}
+[49.760935] (gazebo_plugin_for_simulink) StdoutLine: {'line': b'[ 48%] Built target msgproto\n'}
+[49.821165] (-) TimerEvent: {}
+[49.921764] (-) TimerEvent: {}
+[50.022513] (-) TimerEvent: {}
+[50.122936] (-) TimerEvent: {}
+[50.223319] (-) TimerEvent: {}
+[50.323735] (-) TimerEvent: {}
+[50.424131] (-) TimerEvent: {}
+[50.524535] (-) TimerEvent: {}
+[50.625097] (-) TimerEvent: {}
+[50.726267] (-) TimerEvent: {}
+[50.827007] (-) TimerEvent: {}
+[50.927991] (-) TimerEvent: {}
+[51.028516] (-) TimerEvent: {}
+[51.129055] (-) TimerEvent: {}
+[51.251527] (-) TimerEvent: {}
+[54.918676] (-) TimerEvent: {}
+[56.248913] (-) TimerEvent: {}
+[58.197537] (-) TimerEvent: {}
+[60.576273] (-) TimerEvent: {}
+[62.290725] (-) TimerEvent: {}
+[63.576651] (-) TimerEvent: {}
+[65.432170] (-) TimerEvent: {}
+[71.599546] (-) TimerEvent: {}
+[79.984185] (-) TimerEvent: {}
+[93.410411] (-) TimerEvent: {}
+[105.945661] (-) TimerEvent: {}
+[135.685069] (-) TimerEvent: {}
+[160.374100] (-) TimerEvent: {}
